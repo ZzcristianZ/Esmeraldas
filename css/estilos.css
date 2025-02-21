@@ -215,6 +215,7 @@ header{
     align-items: center;
     padding-top: 30px;
     position: relative;
+    margin-left: 150px;
 }
 
 .imagen_cover img {
@@ -237,7 +238,7 @@ header{
     transform: translate(-50%, -50%);
     font-size: 24px;
     color: white;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     border-radius: 10px;
     opacity: 0;
