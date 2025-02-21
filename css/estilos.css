@@ -375,77 +375,6 @@ header{
 /*End Sobre Nosotros*/
 
 
-/*Servicios*/
-
-.targetas img{
-    width: 100px;
-    margin: auto;
-    height: 100px;
-}
-
-.targetas i{
-    font-size: 24px;
-    margin-top: 20px;
-    cursor: pointer;
-    color: var(--color_primario_6);
-}
-.targetas h2{
-    font-size: 24px;
-    margin-top: 20px;
-    font-weight: 500;
-    color: var(--color_primario_3);
-}
-
-.targetas p{
-    margin-top: 20px;
-    color: var(--color_primario_1);
-}
-
-/*End Servicios*/
-
-
-/*Proyectos*/
-
-.contenedor_proyectos{
-    padding: 100px 0px;
-    background: #B0BEC5;
-    margin-top: 100px;
-}
-
-.container_targeta_proyecto {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.targeta_proyecto h2, .targeta_proyecto p {
-    margin: 0;
-    color: var(--color_primario_8);
-}
-
-
-.targeta_proyecto {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    color: #473036;
-    text-align: left;
-    background-size: cover;
-    background-position: center;
-    margin: 15px;
-    transition: transform 0.3s ease; 
-}
-
-.targeta_proyecto:hover {
-    transform: scale(1.05);
-}
-
-
-/*End Proyectos*/
-
-
-
 
 
 /* formulario */
@@ -625,6 +554,83 @@ input[type="tel"] {
 
 
 /* fin del formulario */
+
+
+
+
+/*Servicios*/
+
+.targetas img{
+    width: 100px;
+    margin: auto;
+    height: 100px;
+}
+
+.targetas i{
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: var(--color_primario_6);
+}
+.targetas h2{
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: var(--color_primario_3);
+}
+
+.targetas p{
+    margin-top: 20px;
+    color: var(--color_primario_1);
+}
+
+/*End Servicios*/
+
+
+/*Proyectos*/
+
+.contenedor_proyectos{
+    padding: 100px 0px;
+    background: #B0BEC5;
+    margin-top: 100px;
+}
+
+.container_targeta_proyecto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.targeta_proyecto h2, .targeta_proyecto p {
+    margin: 0;
+    color: var(--color_primario_8);
+}
+
+
+.targeta_proyecto {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #473036;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    margin: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.targeta_proyecto:hover {
+    transform: scale(1.05);
+}
+
+
+/*End Proyectos*/
+
+
+
+
+
 
 
 
